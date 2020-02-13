@@ -57,5 +57,22 @@ function a(arr){
 z=a([2,4,6,8,9,-3,-7]);
 console.log(z);
 
+________________________________________
+
+Ejercicio 4
+
+var arr= [];
+function RemoverRango(x,y,z){
+  for( var i=0; i<x.length; i++){
+        if(i < y || i > z){
+          arr.push(x[i]);
+        }
+  }
+    return arr
+}
+
+arr=RemoverRango([20,30,40,50,60,70],2,4,);
+console.log(arr)
+
 
 
